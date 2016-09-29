@@ -5,5 +5,6 @@
 
 # Install Go 1.7
 echo "================= Install Go 1.7 ==================="
+gvm use go1.4
 gvm install go1.7 && gvm use go1.7 && go install -a -race std && go get -u github.com/tools/godep
 gvm use go1.7 --default
