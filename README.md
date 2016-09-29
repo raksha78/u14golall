@@ -8,8 +8,8 @@ Shippable CI image for Go on Ubuntu 14.04 with all services available. Available
 3. 1.3
 4. 1.4
 5. 1.5
-4. 1.6
-5. 1.7
+6. 1.6
+7. 1.7
 
 **Services:**
 
