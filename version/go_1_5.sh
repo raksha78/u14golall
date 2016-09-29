@@ -5,5 +5,6 @@
 
 # Install Go 1.5
 echo "================= Install Go 1.5 ==================="
-gvm install go1.5 --prefer-binary && gvm use go1.5 && go install -a -race std && go get -u github.com/tools/godep
-gvm use go1.5 --default
+gvm use go1.4
+export GOROOT_BOOTSTRAP=$GOROOT
+gvm install go1.5 && gvm use go1.5 && go install -a -race std && go get -u github.com/tools/godep

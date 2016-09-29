@@ -11,7 +11,9 @@ apt-get update && apt-get install -y \
 	mercurial \
 	cmake \
 	scons \
-	binutils
+	binutils \
+	gcc \
+	bzr
 
 # Install gvm
 echo "================= Install gvm ==================="
