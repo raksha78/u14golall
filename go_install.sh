@@ -5,6 +5,9 @@
 export  CGO_ENABLED=0
 
 
+ gvm install go1.4 && gvm use go1.4 && go install -a std && go get -u github.com/tools/godep
+
+
 declare -a versions=( '1.7.6' '1.8.3' )
 for version in "${versions[@]}"
   do
